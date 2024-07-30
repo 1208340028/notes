@@ -71,15 +71,11 @@ export default ({
             text: "技术分享",
             items: [
               { text: "小白都能看懂的闭包", link: "/pages/fa532d/" },
-              { text: "关于后台管理应用", link: "/pages/aef645/" },
-              { text: "关于技术的取舍", link: "/pages/fb0623/" },
-              { text: "前端工程化", link: "/pages/495485/" },
-              { text: "切换node版本", link: "/pages/c458cd/" },
-              { text: "如何优雅的写事件代理", link: "/pages/d7b35b/" },
-              { text: "我所不了解的技术", link: "/pages/e7e70a/" },
-              { text: "我喜欢的parcel", link: "/pages/03aae3/" },
-              { text: "angular1使用", link: "/pages/a61c40/" },
-              { text: "npm script打造前端工作流", link: "/pages/367d88/" },
+              { text: "GO-GMP模型", link: "/pages/hd003/" },
+              { text: "MySQL调优", link: "/pages/hd004/" },
+              { text: "centos7部署nacos", link: "/pages/hd005/" },
+              { text: "elasticserch", link: "/pages/hd007/" },
+              { text: "redis", link: "/pages/hd010/" },
             ],
 
           },
@@ -91,14 +87,14 @@ export default ({
               { text: "打包工具的选择", link: "/pages/9f5618/" },
             ],
           },
-          {
-            text: "年终总结",
-            items: [
-              { text: "2019年总结", link: "/pages/5fc367/" },
-              { text: "2020年总结", link: "/pages/15eaf7/" },
-              { text: "2021年总结", link: "/pages/5627f3/" },
-            ],
-          },
+          // {
+          //   text: "年终总结",
+          //   items: [
+          //     { text: "2019年总结", link: "/pages/5fc367/" },
+          //     { text: "2020年总结", link: "/pages/15eaf7/" },
+          //     { text: "2021年总结", link: "/pages/5627f3/" },
+          //   ],
+          // },
         ],
       },
       {
@@ -131,7 +127,7 @@ export default ({
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: "上次更新", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: "docs", // 编辑的文件夹
-    editLinks: true, // 启用编辑
+    editLinks: false, // 启用编辑
     editLinkText: "编辑",
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
@@ -175,7 +171,7 @@ export default ({
     blogger: {
       avatar: "/img/a.jpg",
       name: "执迷",
-      slogan: "我也不饶岁月",
+      slogan: "代码也是艺术",
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -210,7 +206,7 @@ export default ({
     extendFrontmatter: {
       author: {
         name: "执迷",
-        link: "https://github.com/1208340028",
+        link: "https://github.com/1208340028/",
       },
     },
 
