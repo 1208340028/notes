@@ -4,4 +4,4 @@
 
 ## 如果觉得还不错，请我喝杯咖啡吧~
 
-![coffee](\public\coffee.png)
+![coffee](/public/coffee.png)
