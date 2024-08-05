@@ -206,7 +206,7 @@ export default ({
     extendFrontmatter: {
       author: {
         name: "执迷",
-        link: "https://github.com/1208340028/",
+        link: "https://github.com/1208340028/notes/",
       },
     },
 
